@@ -9,5 +9,7 @@
   },
   "homepage": "https://github.com/DDNA-Engineering/ddna-plugins",
   "repository": "https://github.com/DDNA-Engineering/ddna-plugins",
+  "license": "Apache-2.0",
+  "privacyPolicyUrl": "https://www.defense-dna.com/privacy",
   "keywords": ["ddna", "requirements", "systems-engineering", "intent", "gitea", "mcp"]
 }
