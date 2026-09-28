@@ -1,0 +1,13 @@
+{
+  "name": "ddna",
+  "version": "1.2.0",
+  "description": "Connect Claude to DDNA: review requirements, shape Project Intent, run engineering skills, and work with project Git tasks and issues, using your own DDNA account and permissions.",
+  "author": {
+    "name": "Defense DNA",
+    "email": "contact@defense-dna.com",
+    "url": "https://www.defense-dna.com"
+  },
+  "homepage": "https://github.com/DDNA-Engineering/ddna-plugins",
+  "repository": "https://github.com/DDNA-Engineering/ddna-plugins",
+  "keywords": ["ddna", "requirements", "systems-engineering", "intent", "gitea", "mcp"]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ddna",
+  "interface": {
+    "displayName": "DDNA"
+  },
+  "plugins": [
+    {
+      "name": "ddna",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ddna"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ddna",
+  "description": "Defense DNA plugins for AI assistants.",
+  "owner": {
+    "name": "Defense DNA",
+    "email": "contact@defense-dna.com"
+  },
+  "plugins": [
+    {
+      "name": "ddna",
+      "source": "./plugins/ddna",
+      "description": "Connect Claude to DDNA with your own account: requirements, Project Intent, engineering skills, and project Git tasks and issues.",
+      "version": "1.2.0",
+      "author": {
+        "name": "Defense DNA",
+        "email": "contact@defense-dna.com"
+      },
+      "homepage": "https://github.com/DDNA-Engineering/ddna-plugins",
+      "repository": "https://github.com/DDNA-Engineering/ddna-plugins",
+      "keywords": ["ddna", "requirements", "systems-engineering", "intent", "mcp"],
+      "category": "productivity"
+    }
+  ]
+}

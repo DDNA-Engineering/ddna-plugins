@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ddna",
+  "version": "1.2.0",
+  "description": "Connect ChatGPT or Codex to DDNA: review requirements, shape Project Intent, run engineering skills, and work with project Git tasks and issues, using your own DDNA account and permissions.",
+  "author": {
+    "name": "Defense DNA",
+    "email": "contact@defense-dna.com",
+    "url": "https://www.defense-dna.com"
+  },
+  "homepage": "https://github.com/DDNA-Engineering/ddna-plugins",
+  "repository": "https://github.com/DDNA-Engineering/ddna-plugins",
+  "keywords": ["ddna", "requirements", "systems-engineering", "intent", "gitea", "mcp"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "DDNA",
+        "shortDescription": "Shape requirements and Intent; work with project Git.",
+        "longDescription": "Sign in with your DDNA account to review requirements, draft tracked Intent edits, run engineering previews and generation, and collaborate through project Git tasks and issues. You choose which permissions to grant, and every action follows your DDNA workspace and project roles.",
+        "developerName": "Defense DNA",
+        "category": "Productivity",
+        "capabilities": ["Interactive", "Read", "Write"],
+        "websiteURL": "https://www.defense-dna.com",
+        "privacyPolicyURL": "https://www.defense-dna.com/privacy",
+        "termsOfServiceURL": "https://www.defense-dna.com/terms",
+        "defaultPrompt": [
+          "Review a DDNA requirement for testability.",
+          "Help shape my project's Intent documents.",
+          "Show my project's open Git tasks and gates."
+        ],
+        "brandColor": "#356CF6",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
