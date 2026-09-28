@@ -66,4 +66,8 @@ To change permissions, disconnect the assistant in DDNA and connect again. You c
 
 - Privacy policy: https://www.defense-dna.com/privacy
 - Terms of service: https://www.defense-dna.com/terms
-- Support: contact@defense-dna.com
+- Support: https://www.defense-dna.com/support
+
+## License
+
+Apache-2.0. See [LICENSE](LICENSE).
