@@ -9,8 +9,8 @@
     {
       "name": "ddna",
       "source": "./plugins/ddna",
-      "description": "Connect Claude to DDNA with your own account: requirements, Project Intent, engineering skills, and project Git tasks and issues.",
-      "version": "1.2.0",
+      "description": "Connect Claude to DDNA with your own account: project knowledge, requirements, Project Intent, the engineering model, tasks and gates, and stand-ups.",
+      "version": "1.3.0",
       "author": {
         "name": "Defense DNA",
         "email": "contact@defense-dna.com"

@@ -1,6 +1,6 @@
 # DDNA plugins
 
-Connect your AI assistant to [DDNA](https://www.defense-dna.com) (Defense DNA) and work on your engineering projects from Claude, ChatGPT, or Codex: review requirements, shape Project Intent documents, run engineering skills, and collaborate through project Git tasks and issues.
+Connect your AI assistant to [DDNA](https://www.defense-dna.com) (Defense DNA) and work on your engineering projects from Claude, ChatGPT, or Codex: get oriented in a project, review requirements, shape Project Intent documents, work with the engineering model and budgets, and manage tasks, gates, and daily stand-ups.
 
 You sign in with your **existing DDNA account**. The assistant can only reach the projects your DDNA workspace and project roles allow, and only with the permissions you choose when you connect. You never paste tokens or passwords into the assistant.
 
@@ -44,21 +44,13 @@ DDNA is being submitted to the ChatGPT plugin directory. Until it is listed, a w
 
 ## Permissions
 
-When you connect, DDNA's consent page lists every permission. The ones your assistant asked for start checked; you can add or remove any of them. DDNA grants exactly what you check.
-
-| Permission | Lets the assistant |
-| --- | --- |
-| Read (always on) | Read projects, requirements, Intent, and project Git; run engineering previews. |
-| Assist and generate | Draft requirement proposals, continue Intent conversations, and run Intent generation. |
-| Edit and collaborate | Record answers and evidence, draft tracked Intent edits, and create, comment on, close, or reopen project Git tasks and issues. |
-| Decide and publish | Approve or reject proposals and gates, and request project Git publication, when you explicitly ask and your DDNA role permits it. |
-| Stay connected | Renew access for up to 90 days without signing in again. Without it, the connection lasts one hour. |
+When you connect, DDNA's consent page lists every permission. The ones your assistant asked for start checked; you can add or remove any of them. DDNA grants exactly what you check. The [plugin README](plugins/ddna/README.md#permissions) lists what each permission allows.
 
 To change permissions, disconnect the assistant in DDNA and connect again. You can see and revoke every connection in DDNA.
 
 ## What's in this repo
 
-- `plugins/ddna/`: the DDNA plugin. Claude Code reads `.claude-plugin/plugin.json` and `.mcp.json`; Codex and ChatGPT read `plugin.json` and `mcp.json`. Both use the same skills.
+- `plugins/ddna/`: the DDNA plugin. Claude Code reads `.claude-plugin/plugin.json` and `.mcp.json`; Codex and ChatGPT read `plugin.json` and `mcp.json`. Both use the same skills. Its [README](plugins/ddna/README.md) describes what the plugin does and is the text Claude's directory shows.
 - `.claude-plugin/marketplace.json`: the Claude Code marketplace.
 - `.agents/plugins/marketplace.json`: the Codex marketplace.
 
