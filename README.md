@@ -1,6 +1,6 @@
 # DDNA plugins
 
-Connect your AI assistant to [DDNA](https://www.defense-dna.com) (Defense DNA) and work on your engineering projects from Claude, ChatGPT, or Codex: get oriented in a project, review requirements, shape Project Intent documents, work with the engineering model and budgets, and manage tasks, gates, and daily stand-ups.
+Connect your AI assistant to [DDNA](https://www.defense-dna.com) (Defense DNA) and work on your engineering projects from Claude, ChatGPT, or Codex: get oriented in a project, work on requirements and Project Intent, change the engineering model and bill of materials, run change control and technical reviews, read the DFMEA, export deliverables, and manage tasks, gates, and daily stand-ups. Anything DDNA's own Project Chat can do in a project, your assistant can do too, with your access.
 
 You sign in with your **existing DDNA account**. The assistant can only reach the projects your DDNA workspace and project roles allow, and only with the permissions you choose when you connect. You never paste tokens or passwords into the assistant.
 

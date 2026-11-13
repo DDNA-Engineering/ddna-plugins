@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ddna",
-  "version": "1.3.0",
-  "description": "Connect ChatGPT or Codex to DDNA: get oriented in a project, review requirements, shape Project Intent, work with the engineering model and budgets, and manage tasks, gates, and stand-ups, using your own DDNA account and permissions.",
+  "version": "1.4.0",
+  "description": "Connect ChatGPT or Codex to DDNA and do anything Project Chat can: requirements, Project Intent, the engineering model and bill of materials, change control, technical reviews, DFMEA, deliverables, tasks, gates, and stand-ups, using your own DDNA account and permissions.",
   "author": {
     "name": "Defense DNA",
     "email": "contact@defense-dna.com",
@@ -15,8 +15,8 @@
     "com.openai": {
       "interface": {
         "displayName": "DDNA",
-        "shortDescription": "Shape requirements and Intent; work with project Git.",
-        "longDescription": "Sign in with your DDNA account to review requirements, draft tracked Intent edits, run engineering previews and generation, and collaborate through project Git tasks and issues. You choose which permissions to grant, and every action follows your DDNA workspace and project roles.",
+        "shortDescription": "Work on your DDNA engineering projects.",
+        "longDescription": "Sign in with your DDNA account to work on requirements, Project Intent, the engineering model and bill of materials, change control, technical reviews, DFMEA, deliverables, and tasks. You choose which permissions to grant, and every action follows your DDNA workspace and project roles.",
         "developerName": "Defense DNA",
         "category": "Productivity",
         "capabilities": ["Interactive", "Read", "Write"],

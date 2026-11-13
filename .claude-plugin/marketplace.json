@@ -9,8 +9,8 @@
     {
       "name": "ddna",
       "source": "./plugins/ddna",
-      "description": "Connect Claude to DDNA with your own account: project knowledge, requirements, Project Intent, the engineering model, tasks and gates, and stand-ups.",
-      "version": "1.3.0",
+      "description": "Connect Claude to DDNA with your own account: requirements, Project Intent, the engineering model and bill of materials, change control, DFMEA, deliverables, tasks and gates, and stand-ups.",
+      "version": "1.4.0",
       "author": {
         "name": "Defense DNA",
         "email": "contact@defense-dna.com"

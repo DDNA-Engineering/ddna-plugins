@@ -1,8 +1,8 @@
 {
   "name": "ddna",
   "displayName": "DDNA",
-  "version": "1.3.0",
-  "description": "Connect Claude to DDNA: get oriented in a project, review requirements, shape Project Intent, work with the engineering model and budgets, and manage tasks, gates, and stand-ups, using your own DDNA account and permissions.",
+  "version": "1.4.0",
+  "description": "Connect Claude to DDNA and do anything Project Chat can: requirements, Project Intent, the engineering model and bill of materials, change control, technical reviews, DFMEA, deliverables, tasks, gates, and stand-ups, using your own DDNA account and permissions.",
   "author": {
     "name": "Defense DNA",
     "email": "contact@defense-dna.com",
@@ -16,5 +16,5 @@
   "supportUrl": "https://www.defense-dna.com/support",
   "privacyPolicyUrl": "https://www.defense-dna.com/privacy",
   "termsOfServiceUrl": "https://www.defense-dna.com/terms",
-  "keywords": ["ddna", "requirements", "systems-engineering", "intent", "tasks", "gitea", "mcp"]
+  "keywords": ["ddna", "requirements", "systems-engineering", "intent", "bom", "dfmea", "change-control", "tasks", "gitea", "mcp"]
 }
