@@ -1,17 +1,20 @@
 ---
 name: ddna-requirement-ide
-description: Use DDNA's approval-only Requirement IDE through the DDNA MCP tools for requirement review, closeout, evidence, and proposal decisions.
+description: Review, refine, and close out DDNA requirements through the approval-only Requirement IDE. Use when the user asks to review a requirement for quality or testability, find what a requirement is missing, record evidence or answers, or approve or reject a requirement change proposal.
 ---
 
 # DDNA Requirement IDE
 
-Use this skill when the user asks to review, close out, refine, or decide a DDNA requirement workflow.
+Use this skill when the user asks to review, close out, refine, or decide a DDNA requirement.
 
-1. Check the connection only when authentication, workspace, or permissions are unclear. Otherwise list the smallest useful project or requirement page.
-2. Read a specific requirement before detailed analysis or drafting changes.
-3. Use the workbench assistant for reviewable field patches, or create an approval-only Requirement IDE session for multi-turn work.
-4. Answer DDNA questions or record evidence only when the user supplies or identifies the evidence.
-5. Treat every patch and proposal as reviewable. DDNA MCP never applies changes automatically.
-6. Call the proposal decision tool only after the user explicitly chooses `approve` or `reject`. Never infer the decision or retry a failed write automatically.
+1. Find the requirement with `ddna_requirement_list`, asking for the smallest useful page. Check `ddna_connection_status` only when sign-in, workspace, or permissions are unclear.
+2. Read the requirement with `ddna_requirement_get` before any detailed analysis or drafting. It returns the full profile, source references, evidence, and review state.
+3. For reviewable field patches or follow-up questions on one requirement, use `ddna_requirement_workbench_assistant`.
+4. For multi-turn work, open an approval-only session with `ddna_requirement_ide_session_create` and continue it with `ddna_requirement_ide_message_send`.
+5. Record an answer with `ddna_requirement_ide_question_answer` or attach evidence with `ddna_requirement_ide_evidence_record` only when the user supplies or identifies it.
+6. Read stored change proposals with `ddna_requirement_change_proposal_list`.
+7. Decide a proposal only after the user explicitly chooses approve or reject: `ddna_requirement_ide_proposal_apply` for a Requirement IDE proposal, `ddna_requirement_change_proposal_decide` for a stored change proposal. Never infer the decision.
 
-Use standards context only when the requirement or user request is standards-driven. If DDNA reports a permission error, explain the needed workspace or project role, or the connection permission to grant, and stop that action.
+Every patch and proposal is reviewable. DDNA never applies a change automatically, and a decision needs the user's current approver authority.
+
+Use standards context only when the requirement or the user's request is standards-driven. If DDNA reports a permission error, name the workspace or project role, or the connection permission, that is needed, and stop that action. Do not retry a failed write automatically.
