@@ -15,4 +15,6 @@ Use this skill when DDNA is not connected yet or reports an authentication failu
 4. If an action is refused for a missing permission, name the permission it needs (Assist and generate, Edit and collaborate, or Decide and publish) and tell the user they can reconnect to grant it. Do not retry.
 5. If access is denied for another reason, call `ddna_connection_status` once and explain whether reconnection, another workspace, or a DDNA role change is needed.
 
+Once DDNA is connected and the user starts on a project, use the ddna-getting-started skill to get that project ready.
+
 DDNA checks workspace membership and project permissions on every call. OAuth connections never receive administrative access.
