@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ddna",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "Connect ChatGPT or Codex to DDNA and do anything Project Chat can: requirements, Project Intent, the engineering model and bill of materials, change control, technical reviews, DFMEA, deliverables, tasks, gates, and stand-ups, using your own DDNA account and permissions.",
   "author": {
     "name": "Defense DNA",

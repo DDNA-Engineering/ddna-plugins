@@ -8,6 +8,7 @@ You sign in with your existing DDNA account. The assistant reaches only the proj
 
 Anything DDNA's own Project Chat can do in a project, your assistant can do too, with your access.
 
+- **Get a project ready.** The assistant checks what a project holds, asks you for the documents DDNA needs, asks you five Intent questions, and can set up a daily five-question routine in apps that schedule tasks.
 - **Get oriented.** Ask where a project stands, what is blocking it, what was decided, and what changed since you last looked.
 - **Requirements.** Review a requirement for quality and testability, write or edit requirements and their fields, record evidence, and work findings, risks, and assumptions.
 - **Intent.** Answer the open Intent questions, read and edit the Intent documents and registers, generate documents and visuals, run trade studies, and review or approve.
@@ -23,6 +24,7 @@ Anything DDNA's own Project Chat can do in a project, your assistant can do too,
 
 Example requests:
 
+- "Get my Falcon project ready and ask me today's five questions."
 - "Where does my Falcon project stand, and what is blocking it?"
 - "Review the Falcon power requirements for testability and tell me what is missing."
 - "What is on my plate this week across my DDNA projects?"
