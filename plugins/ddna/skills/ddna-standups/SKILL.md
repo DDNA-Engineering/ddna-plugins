@@ -1,6 +1,8 @@
 ---
 name: ddna-standups
-description: Read and answer DDNA daily stand-ups, and manage them for a workspace. Use when the user asks for their stand-up, wants to record today's answers, asks what the team reported, or (as a Workspace Manager or project lead) asks to set up or change a stand-up.
+description: Read and answer DDNA daily stand-ups, and manage them for a workspace. Use when the user asks for their stand-up, wants to record today's answers, asks what the team reported, or (as a Workspace Manager or project lead) asks to set up or change a stand-up. Not for reading or changing the tasks themselves (ddna-tasks).
+metadata:
+  author: Defense DNA <contact@defense-dna.com>
 ---
 
 # DDNA daily stand-ups

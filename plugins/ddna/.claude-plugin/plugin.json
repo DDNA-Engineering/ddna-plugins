@@ -1,7 +1,7 @@
 {
   "name": "ddna",
   "displayName": "DDNA",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Connect Claude to DDNA and do anything Project Chat can: requirements, Project Intent, the engineering model and bill of materials, change control, technical reviews, DFMEA, deliverables, tasks, gates, and stand-ups, using your own DDNA account and permissions.",
   "author": {
     "name": "Defense DNA",

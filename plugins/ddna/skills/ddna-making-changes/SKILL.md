@@ -1,6 +1,8 @@
 ---
 name: ddna-making-changes
 description: The rules for changing a DDNA project from an assistant. Covers when to save a proposal and when to change a record directly, the project_version check, safe retries, generation runs, download links, permissions, and refusals. Use before the first change in a conversation, and whenever DDNA refuses a change or says the project changed.
+metadata:
+  author: Defense DNA <contact@defense-dna.com>
 ---
 
 # Making changes in DDNA

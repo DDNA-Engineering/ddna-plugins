@@ -1,6 +1,8 @@
 ---
 name: ddna-project-admin
-description: Set up and administer a DDNA project. Covers project details and status, connected sources such as GitHub, Notion, and Google Drive, source files, evidence, the project team, invitations and access, and archiving or deleting a project. Use when the user asks to rename or archive a project, connect or sync a source, add evidence, or see or change who has access.
+description: Set up and administer a DDNA project. Covers project details and status, connected sources such as GitHub, Notion, and Google Drive, source files, evidence, the project team, invitations and access, and archiving or deleting a project. Use when the user asks to rename or archive a project, connect or sync a source, add evidence, or see or change who has access. Not for assigning tasks or setting who carries a task role (ddna-tasks).
+metadata:
+  author: Defense DNA <contact@defense-dna.com>
 ---
 
 # DDNA project set-up and team

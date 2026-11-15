@@ -1,6 +1,8 @@
 ---
 name: ddna-project-knowledge
-description: Get oriented in a DDNA project and find what it already records. Use when the user asks what a project is, where it stands, what is blocking it, what was decided, what changed since last time, or asks a question the project's saved facts could answer.
+description: Get oriented in a DDNA project and find what it already records. Use when the user asks what a project is, where it stands, what is blocking it, what was decided, what changed since last time, or asks a question the project's saved facts could answer. Not for changing records; use the skill for the record being changed.
+metadata:
+  author: Defense DNA <contact@defense-dna.com>
 ---
 
 # DDNA project knowledge

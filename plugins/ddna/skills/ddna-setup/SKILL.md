@@ -1,6 +1,8 @@
 ---
 name: ddna-setup
 description: Connect or reconnect DDNA in Claude, ChatGPT, or Codex by signing in to an existing DDNA account with OAuth. Use when DDNA is not connected or reports an authentication or permission failure.
+metadata:
+  author: Defense DNA <contact@defense-dna.com>
 ---
 
 # DDNA Setup
