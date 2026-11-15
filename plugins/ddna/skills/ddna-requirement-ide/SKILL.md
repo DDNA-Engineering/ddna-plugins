@@ -1,6 +1,8 @@
 ---
 name: ddna-requirement-ide
-description: Review, refine, write, and close out DDNA requirements, and work the findings, risks, assumptions, and guided questions around them. Use when the user asks to review a requirement for quality or testability, find what a requirement is missing, add or edit a requirement or its fields, record evidence or answers, approve or reject a requirement or a change proposal, or work a finding, risk, or assumption.
+description: Review, refine, write, and close out DDNA requirements, and work the findings, risks, assumptions, and guided questions around them. Use when the user asks to review a requirement for quality or testability, find what a requirement is missing, add or edit a requirement or its fields, record evidence or answers, approve or reject a requirement or a change proposal, or work a finding, risk, or assumption. Not for engineering change proposals, deviations, or waivers (ddna-change-control).
+metadata:
+  author: Defense DNA <contact@defense-dna.com>
 ---
 
 # DDNA requirements

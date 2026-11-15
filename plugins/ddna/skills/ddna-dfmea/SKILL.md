@@ -1,6 +1,8 @@
 ---
 name: ddna-dfmea
-description: Work with a DDNA project's design failure mode and effects analysis (DFMEA). Covers the project summary, analyses and their worksheets, runs, evidence questions, failure chain corrections, the milestone policy, and exports. Use when the user asks about failure modes, causes, effects, controls, or ratings, or asks to answer a DFMEA question, correct a failure chain, or start or check a DFMEA run.
+description: Work with a DDNA project's design failure mode and effects analysis (DFMEA). Covers the project summary, analyses and their worksheets, runs, evidence questions, failure chain corrections, the milestone policy, and exports. Use when the user asks about failure modes, causes, effects, controls, or ratings, or asks to answer a DFMEA question, correct a failure chain, or start or check a DFMEA run. Not for program risks, assumptions, or requirement findings (ddna-requirement-ide).
+metadata:
+  author: Defense DNA <contact@defense-dna.com>
 ---
 
 # DDNA DFMEA

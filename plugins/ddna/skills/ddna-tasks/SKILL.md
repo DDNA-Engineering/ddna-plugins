@@ -1,6 +1,8 @@
 ---
 name: ddna-tasks
-description: Read and manage DDNA project tasks, phases, review gates, roles, task plans, the Plan of Action and Milestones, and workspace organization tasks. Use when the user asks what they or their team must do next, or asks to create, assign, schedule, comment on, attach evidence to, or decide a task or gate.
+description: Read and manage DDNA project tasks, phases, review gates, roles, task plans, the Plan of Action and Milestones, and workspace organization tasks. Use when the user asks what they or their team must do next, or asks to create, assign, schedule, comment on, attach evidence to, or decide a task or gate. Not for adding people to a project or changing their access (ddna-project-admin), stand-up answers (ddna-standups), or engineering issues (ddna-engineering).
+metadata:
+  author: Defense DNA <contact@defense-dna.com>
 ---
 
 # DDNA tasks

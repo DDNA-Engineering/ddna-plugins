@@ -1,6 +1,8 @@
 ---
 name: ddna-deliverables
-description: Work with a DDNA project's deliverable documents. Covers the system/subsystem specification, interface control document, verification cross-reference matrix, and architecture views description, plus their Word exports, review decisions, document control settings, and release readiness. Use when the user asks to open, check, export, or review a deliverable, or asks whether the deliverables are ready for a release.
+description: Work with a DDNA project's deliverable documents. Covers the system/subsystem specification, interface control document, verification cross-reference matrix, and architecture views description, plus their Word exports, review decisions, document control settings, and release readiness. Use when the user asks to open, check, export, or review a deliverable, or asks whether the deliverables are ready for a release. Not for releasing a baseline or building a release package (ddna-engineering), or for change proposals (ddna-change-control).
+metadata:
+  author: Defense DNA <contact@defense-dna.com>
 ---
 
 # DDNA deliverables

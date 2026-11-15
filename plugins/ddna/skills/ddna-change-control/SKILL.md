@@ -1,6 +1,8 @@
 ---
 name: ddna-change-control
 description: Work with DDNA change control and technical reviews. Covers engineering change proposals, deviations and waivers, the change board, what a release still needs a proposal for, and technical reviews with their criteria and action items. Use when the user asks to raise, edit, submit, or withdraw a change proposal, deviation, or waiver, or to plan, convene, or track a technical review.
+metadata:
+  author: Defense DNA <contact@defense-dna.com>
 ---
 
 # DDNA change control and technical reviews

@@ -1,6 +1,8 @@
 ---
 name: ddna-intent
-description: Work on a DDNA project's Intent. Covers the Intent questions and interview, the Intent documents and their revisions, tracked edits, comments, guidance notes, registers such as hazards, constraints, and readiness evidence, visuals, trade studies, generation runs, and review and approval. Use when the user asks to answer Intent questions, read or edit an Intent document or register, generate or update Intent, or review, approve, or return one.
+description: Work on a DDNA project's Intent. Covers the Intent questions and interview, the Intent documents and their revisions, tracked edits, comments, guidance notes, registers such as hazards, constraints, and readiness evidence, visuals, trade studies, generation runs, and review and approval. Use when the user asks to answer Intent questions, read or edit an Intent document or register, generate or update Intent, or review, approve, or return one. Not for requirements and their approval (ddna-requirement-ide) or deliverable documents (ddna-deliverables).
+metadata:
+  author: Defense DNA <contact@defense-dna.com>
 ---
 
 # DDNA Intent

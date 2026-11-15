@@ -1,6 +1,8 @@
 ---
 name: ddna-engineering
-description: Work on a DDNA project's engineering model. Covers configurations, the System map and its notes, parts, boards, the bill of materials, budgets, requirement coverage and allocation, imports from Onshape and other files, subsystem projects, baselines and releases, change impact, engineering issues, the project's Git record, and release packages. Use when the user asks to read, change, import into, or release the engineering model or its bill of materials.
+description: Work on a DDNA project's engineering model. Covers configurations, the System map and its notes, parts, boards, the bill of materials, budgets, requirement coverage and allocation, imports from Onshape and other files, subsystem projects, baselines and releases, change impact, engineering issues, the project's Git record, and release packages. Use when the user asks to read, change, import into, or release the engineering model or its bill of materials. Not for Intent documents (ddna-intent), change proposals or technical reviews (ddna-change-control), deliverable documents (ddna-deliverables), or tasks (ddna-tasks).
+metadata:
+  author: Defense DNA <contact@defense-dna.com>
 ---
 
 # DDNA engineering model
